@@ -10,13 +10,13 @@ namespace number_request
     {
         static void Main(string[] args)
         {
-            int number = ConvertNumber();
+            int number = ReadNumber();
 
             Console.WriteLine($"Число {number} удалось сконвертировать в int");
             Console.ReadKey();
         }
 
-        static int ConvertNumber()
+        static int ReadNumber()
         {
             bool isSuccess = false;
             string input;
